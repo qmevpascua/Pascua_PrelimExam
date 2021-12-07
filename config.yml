@@ -1,0 +1,11 @@
+---
+- hosts: Ubuntu
+  become: true
+  vars:
+     username: "mark"
+     motd: "Ansible Managed node by qmevpascua"
+  roles:
+    - role1
+    - role2
+    - role3
+    - role4
